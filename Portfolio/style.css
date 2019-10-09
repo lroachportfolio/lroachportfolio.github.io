@@ -1,7 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
+
+
+.menu{
+	margin: auto;
+	max-width: 960px;
+	margin-top: 10px;
+}
+
 .home{
-	background-color: #FFB997;
+	background-color: #F67E7D;
 	color: #000000;
 	width: 75px;
 	float: left;
@@ -11,6 +19,11 @@
 	background-color: #F67E7D;
 }
 
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
 .branding{
 	background-color: #FFB997;
 	color: #000000;
@@ -18,6 +31,11 @@
 	float: left;
 	padding-left: 30px;
 	margin-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
 }
 .branding:hover{
 	background-color: #F67E7D;
@@ -31,6 +49,11 @@
 	padding-left: 30px;
 	margin-left: 10px;
 }
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
 .digitalillustrations:hover{
 	background-color: #F67E7D;
 }
@@ -43,6 +66,12 @@
 	padding-left: 30px;
 	margin-left: 10px;
 }
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
 .creativeexplorations:hover{
 	background-color:#F67E7D;
 }
@@ -54,6 +83,12 @@
 	padding-left: 30px;
 	margin-left: 10px;
 }
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
 .resume:hover{
 	background-color: #F67E7D;
 }
@@ -65,6 +100,39 @@
 	padding-left: 30px;
 	margin-left: 10px;
 }
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
 .about:hover{
 	background-color: #F67E7D;
 }
+
+.graphic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+.column {
+  float: left;
+  width: 30%;
+   padding: 15px;
+	margin-left: auto;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+	margin-top: 100px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
